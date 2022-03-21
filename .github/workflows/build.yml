@@ -26,10 +26,10 @@ jobs:
       - name: "[TEST] Verify Debian 11 (Bullseye) Image"
         run: docker exec --tty test-docker-11 env TERM=xterm systemctl status
       
-      - uses: azure/container-scan@v0
-        with:
-          image-name: test-docker-11
-          severity-threshold: MEDIUM
+      # - uses: azure/container-scan@v0
+      #   with:
+      #     image-name: test-docker-11
+      #     severity-threshold: MEDIUM
 
   release:
     name: Release
