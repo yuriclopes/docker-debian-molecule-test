@@ -1,6 +1,6 @@
 # Debian with SystemD
 
-[![CI](https://github.com/yuriclopes/docker-debian-systemd/workflows/Build/badge.svg?branch=main&event=push)](https://github.com/yuriclopes/docker-debian-systemd/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/yuriclopes/docker-debian-systemd)](https://hub.docker.com/repository/docker/yuriclopes/debian-systemd)
+[![CI](https://github.com/yuriclopes/docker-debian-systemd/workflows/Build/badge.svg?branch=main&event=push)](https://github.com/yuriclopes/docker-debian-systemd/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/yuriclopes/debian-systemd)](https://hub.docker.com/r/yuriclopes/debian-systemd)
 
 - Debian 11 (Bullseye) Docker container with SystemD.
 
