@@ -29,6 +29,7 @@ jobs:
       - uses: azure/container-scan@v0
         with:
           image-name: test-docker-11
+          severity-threshold: MEDIUM
 
   release:
     name: Release
