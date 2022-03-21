@@ -47,7 +47,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./11-slim
-          dockerfile: ./11-slim/Dockerfile
+          file: ./11-slim/Dockerfile
           platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ github.repository }}:11-slim
