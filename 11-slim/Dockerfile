@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && \
     apt-get upgrade -y && \
-    apt-get install -y --no-install-recommends systemd systemd-cron python3 python3-pip sudo bash ca-certificates iproute2 && \
+    apt-get install -y --no-install-recommends systemd systemd-cron python3 sudo bash ca-certificates iproute2 && \
     rm -Rf /usr/share/doc && \
     rm -Rf /usr/share/man && \
     apt-get clean && \
